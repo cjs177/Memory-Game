@@ -1,0 +1,48 @@
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: blue;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+h1{
+
+}
+
+p {
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 75px;
+
+}
+
+.gameContainer{
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    justify-content: center;
+    margin: auto;
+}
+
+.scoreContainer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.selectionContainer{
+    padding: 3px;
+    margin: 3px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background: white;
+    color: black;
+}
+
+img {
+    width: 80%;
+    height: auto;
+    margin-left: 20px;
+    background: white;
+}
